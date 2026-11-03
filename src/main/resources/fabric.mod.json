@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pathbot",
+  "version": "${version}",
+  "name": "Ucieczka Bot",
+  "description": "Nagrywa trase i odtwarza ja w petli.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.pathbot.PathBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
